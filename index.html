@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiktaktoe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="box">
+            <button id="currentPlayer">O</button>
+
+            <div class="ScoreO">O : </div>
+            <div class="ScoreX">X : </div>
+
+            <div class="tableContainer"><button onclick="checkButton(0)" class="table"></button><span class="lines"></span></div>
+            <div class="tableContainer"><button onclick="checkButton(1)" class="table"></button><span class="lines"></span></div>
+            <div class="tableContainer"><button onclick="checkButton(2)" class="table"></button><span class="lines"></span></div>
+
+            <div class="tableContainer"><button onclick="checkButton(3)" class="table"></button><span class="lines"></span></div>
+            <div class="tableContainer"><button onclick="checkButton(4)" class="table"></button><span class="lines"></span></div>
+            <div class="tableContainer"><button onclick="checkButton(5)" class="table"></button><span class="lines"></span></div>
+
+            <div class="tableContainer"><button onclick="checkButton(6)" class="table"></button><span class="lines"></span></div>
+            <div class="tableContainer"><button onclick="checkButton(7)" class="table"></button><span class="lines"></span></div>
+            <div class="tableContainer"><button onclick="checkButton(8)" class="table"></button><span class="lines"></span></div>
+
+            <button id="reset" onclick="resetbtn()">Reset</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
