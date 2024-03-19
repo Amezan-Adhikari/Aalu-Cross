@@ -41,6 +41,8 @@ const resetbtn=()=>{
     }
     currentPlayer="O";
     document.getElementById("currentPlayer").innerHTML = "O";
+    document.getElementById("currentPlayer").classList.add("playerO");
+    document.getElementById("currentPlayer").classList.remove("playerX");
 }
 
 
